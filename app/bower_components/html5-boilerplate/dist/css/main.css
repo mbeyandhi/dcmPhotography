@@ -460,7 +460,7 @@ div.uploader,
     }
 .nav-menu ul li a:hover,
 .nav-menu ul li a.selected {
-	color: #C9B69B; 
+	color: #e28a2a; 
 	}
 
 /* MOBILE MENU */
@@ -915,7 +915,7 @@ a.button.green:hover {
  	font-size: 1em; margin-bottom: 2em;
 	}
 	.tabs .tab-titles {
- 		padding: 0; margin: 0 0 0px 0; font-size:  13px; font-weight: bold;
+ 		padding: 0; margin: 0 0 0px 0; font-size:  13px; font-weight: normal;
 		}
 		.tabs .tab-titles li {
  			display: inline-block; margin-bottom: 0px;
@@ -924,7 +924,7 @@ a.button.green:hover {
  				display: inline-block; padding: 0; margin-right: 1em; border: 0; cursor: pointer;
 				}
 			.tabs .tab-titles li a.active {
-                border-bottom: 3px solid #555;
+                border-bottom: 3px solid #e28a2a; color:#e28a2a;
 				}
 	.tabs .tab-content {
         font-size: 15px; 

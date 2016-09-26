@@ -8,6 +8,7 @@ angular.module('myApp', [
   'myApp.price',
   'myApp.aboutus',
   'myApp.contact',
+  'myApp.gallery',
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
