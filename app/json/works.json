@@ -1,38 +1,62 @@
 {  
    "works":[  
       {  
-         "name":"OUTDOOR",
+         "name":"EDWIN & SANJANA",
          "imgUrl":"images/album/01.jpg",
          "desc":"Lily likes to play with crayons and pencils",
 		 "link" : "test"
       },
 	  {  
-         "name":"PORTRAITS",
+         "name":"ROMEO & JULIET",
          "imgUrl":"images/album/02.jpg",
          "desc":"Lily likes to play with crayons and pencils",
 		 "link" : "test"
       },
 	  {  
-         "name":"PEOPLE",
+         "name":"RAM & SITA",
          "imgUrl":"images/album/03.jpg",
          "desc":"Lily likes to play with crayons and pencils",
 		 "link" : "test"
       },
 	  {  
-         "name":"FACES",
+         "name":"RAJA & RANI",
          "imgUrl":"images/album/04.jpg",
          "desc":"Lily likes to play with crayons and pencils",
 		 "link" : "test"
       },
 	  {  
-         "name":"NATURE",
-         "imgUrl":"images/album/05.jpg",
+         "name":"ROMEO & JULIET",
+         "imgUrl":"images/album/02.jpg",
          "desc":"Lily likes to play with crayons and pencils",
 		 "link" : "test"
       },
 	  {  
-         "name":"KIDS",
-         "imgUrl":"images/album/06.jpg",
+         "name":"RAM & SITA",
+         "imgUrl":"images/album/03.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "test"
+      },
+	  {  
+         "name":"RAJA & RANI",
+         "imgUrl":"images/album/04.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "test"
+      },
+	  {  
+         "name":"ROMEO & JULIET",
+         "imgUrl":"images/album/02.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "test"
+      },
+	  {  
+         "name":"RAM & SITA",
+         "imgUrl":"images/album/03.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "test"
+      },
+	  {  
+         "name":"RAJA & RANI",
+         "imgUrl":"images/album/04.jpg",
          "desc":"Lily likes to play with crayons and pencils",
 		 "link" : "test"
       }
