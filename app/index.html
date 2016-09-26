@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html lang="en" ng-app="myApp" class="no-js home-landing loaded">
+<html lang="en" ng-app="myApp" class="no-js loaded" ng-controller="MainController" ng-class="{'home-landing': isActive()}" >
 <!--<![endif]-->
 
 <head>
@@ -22,6 +22,7 @@
 
 
 	<!-- STYLES -->
+	<link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="bower_components/html5-boilerplate/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="bower_components/html5-boilerplate/dist/css/fonts/fontello/css/fontello.css">
 	<link rel="stylesheet" type="text/css" href="bower_components/external-js/jquery.uniform/uniform.default.css">
@@ -34,8 +35,7 @@
 	<link rel="stylesheet" type="text/css" href="bower_components/html5-boilerplate/dist/css/style.css">
 	<link rel="stylesheet" type="text/css" href="bower_components/html5-boilerplate/dist/css/main.css">
 	<link rel="stylesheet" type="text/css" href="bower_components/html5-boilerplate/dist/css/768.css">
-	<link rel="stylesheet" type="text/css" href="bower_components/html5-boilerplate/dist/css/992.css">
-	<link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/html5-boilerplate/dist/css/992.css">	
 	<link rel="stylesheet" href="app.css">
 
 
@@ -48,7 +48,7 @@
 
 </head>
 
-<body>
+<body >
 
 	<!-- page -->
 	<div id="page" class="hfeed site">
@@ -74,54 +74,11 @@
 				<!-- nav-menu -->
 				<div class="nav-menu">
 					<ul>
-						<li><a href="#!/home">HOME</a>
-							<!-- level 2 -->
-							<!--  <ul>
-                                    <li><a href="#!/home">Home</a></li>
-                                    <li><a href="home-landing-image.html">Home Landing Image</a></li>
-                                    <li><a href="home-landing-slides.html">Home Landing Slides</a></li>
-                                    <li><a href="home-alt.html">Home Alternate</a></li>
-                                    <li><a href="home-alt-2.html">Home Alternate 2</a></li>
-                                </ul> -->
-							<!-- level 2 -->
-						</li>
-						<li><a href="work.html">WORK</a>
-							<!-- level 2 -->
-							<ul>
-								<li><a href="gallery-single.html">Gallery with zoom</a>
-								</li>
-								<li><a href="gallery-single-mfp.html">Gallery without zoom</a>
-								</li>
-								<li><a href="gallery-single-video.html">Simple Gallery</a>
-								</li>
-							</ul>
-							<!-- level 2 -->
-						</li>
-						<li><a href="pricing.html">PRICING</a>
-						</li>
-						<li><a href="blog.html">BLOG</a>
-							<!-- level 2 -->
-							<ul>
-								<li><a href="blog-with-sidebar.html">Blog with sidebar</a>
-								</li>
-								<li><a href="category.html">Blog Category</a>
-								</li>
-								<li><a href="blog-simple.html">Blog Simple</a>
-								</li>
-							</ul>
-							<!-- level 2 -->
-						</li>
-						<li><a href="about.html">ABOUT ME</a>
-							<!-- level 2 -->
-							<ul>
-								<li><a href="typo.html">Typography</a>
-								</li>
-								<li><a href="shortcodes.html">Shortcodes</a>
-								</li>
-							</ul>
-							<!-- level 2 -->
-						</li>
-						<li><a href="contact.html">CONTACT</a>
+						<li><a href="#!/home">HOME</a></li>
+						<li><a href="#!/work" ng-class="{'selected': selectedNav === '/work'}">WORK</a></li>
+						<li><a href="#!/pricing" ng-class="{'selected': selectedNav === '/pricing'}">PRICING</a></li>						
+						<li><a href="#!/aboutus" ng-class="{'selected': selectedNav === '/aboutus'}">ABOUT ME</a></li>
+						<li><a href="#!/contact" ng-class="{'selected': selectedNav === '/contact'}">CONTACT</a>
 						</li>
 					</ul>
 				</div>
@@ -210,8 +167,11 @@
 
 
 	<script src="app.js"></script>
-	<script src="view1/view1.js"></script>
-	<script src="view2/view2.js"></script>
+	<script src="p_home/controller.js"></script>
+	<script src="p_work/controller.js"></script>
+	<script src="p_pricing/controller.js"></script>
+	<script src="p_aboutUs/controller.js"></script>
+	<script src="p_contact/controller.js"></script>
 	<script src="components/version/version.js"></script>
 	<script src="components/version/version-directive.js"></script>
 	<script src="components/version/interpolate-filter.js"></script>

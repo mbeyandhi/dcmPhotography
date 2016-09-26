@@ -1,0 +1,40 @@
+{  
+   "works":[  
+      {  
+         "name":"OUTDOOR",
+         "imgUrl":"images/album/01.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "test"
+      },
+	  {  
+         "name":"PORTRAITS",
+         "imgUrl":"images/album/02.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "test"
+      },
+	  {  
+         "name":"PEOPLE",
+         "imgUrl":"images/album/03.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "test"
+      },
+	  {  
+         "name":"FACES",
+         "imgUrl":"images/album/04.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "test"
+      },
+	  {  
+         "name":"NATURE",
+         "imgUrl":"images/album/05.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "test"
+      },
+	  {  
+         "name":"KIDS",
+         "imgUrl":"images/album/06.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "test"
+      }
+   ]
+}

@@ -3,12 +3,25 @@
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
   'ngRoute',
-  'myApp.view1',
-  'myApp.view2',
+  'myApp.home',
+  'myApp.work',
+  'myApp.price',
+  'myApp.aboutus',
+  'myApp.contact',
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
 
-  $routeProvider.otherwise({redirectTo: '/view1'});
-}]);
+  $routeProvider.otherwise({redirectTo: '/home'});
+}])
+.controller('MainController', function MainController($scope, $http, $location) {
+
+	$scope.active = true;
+	$scope.isActive = function () {	
+	$scope.selectedNav = $location.path();	
+		if('/home' === $location.path() || '/#' === $location.path())
+			return true; 	
+	}
+	
+});
