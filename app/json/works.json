@@ -4,61 +4,61 @@
          "name":"EDWIN & SANJANA",
          "imgUrl":"images/album/01.jpg",
          "desc":"Lily likes to play with crayons and pencils",
-		 "link" : "#!/gallery"
+		 "link" : "#!/gallery/:0001"
       },
 	  {  
          "name":"ROMEO & JULIET",
          "imgUrl":"images/album/02.jpg",
          "desc":"Lily likes to play with crayons and pencils",
-		 "link" : "test"
+		 "link" : "#!/gallery/:0002"
       },
 	  {  
          "name":"RAM & SITA",
          "imgUrl":"images/album/03.jpg",
          "desc":"Lily likes to play with crayons and pencils",
-		 "link" : "test"
+		 "link" : "#!/gallery/:0003"
       },
 	  {  
          "name":"RAJA & RANI",
          "imgUrl":"images/album/04.jpg",
          "desc":"Lily likes to play with crayons and pencils",
-		 "link" : "test"
+		 "link" : "#!/gallery/:0004"
       },
 	  {  
          "name":"ROMEO & JULIET",
          "imgUrl":"images/album/02.jpg",
          "desc":"Lily likes to play with crayons and pencils",
-		 "link" : "test"
+		 "link" : "#!/gallery:0004"
       },
 	  {  
-         "name":"RAM & SITA",
-         "imgUrl":"images/album/03.jpg",
+         "name":"EDWIN & SANJANA",
+         "imgUrl":"images/album/01.jpg",
          "desc":"Lily likes to play with crayons and pencils",
-		 "link" : "test"
-      },
-	  {  
-         "name":"RAJA & RANI",
-         "imgUrl":"images/album/04.jpg",
-         "desc":"Lily likes to play with crayons and pencils",
-		 "link" : "test"
+		 "link" : "#!/gallery/:0001"
       },
 	  {  
          "name":"ROMEO & JULIET",
          "imgUrl":"images/album/02.jpg",
          "desc":"Lily likes to play with crayons and pencils",
-		 "link" : "test"
+		 "link" : "#!/gallery/:0002"
       },
 	  {  
          "name":"RAM & SITA",
          "imgUrl":"images/album/03.jpg",
          "desc":"Lily likes to play with crayons and pencils",
-		 "link" : "test"
+		 "link" : "#!/gallery/:0003"
       },
 	  {  
          "name":"RAJA & RANI",
          "imgUrl":"images/album/04.jpg",
          "desc":"Lily likes to play with crayons and pencils",
-		 "link" : "test"
+		 "link" : "#!/gallery/:0004"
+      },
+	  {  
+         "name":"ROMEO & JULIET",
+         "imgUrl":"images/album/02.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery:0004"
       }
    ]
 }

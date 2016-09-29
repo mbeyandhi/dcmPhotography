@@ -1,0 +1,155 @@
+{
+	"0001" : {
+		"title" : "EDWIN & SANJANA",
+		"desc" : "Read is a responsive WordPress theme focused on readability with a minimalist design. You will enjoy blogging using our Read theme. It is clean, minimalist, content-focused and responsive. It looks great on every device. Your readers will enjoy reading your blog.",
+		"event" : {"name" : "event name", "place" : "chennai", "time" : "4:00 PM", "info" : "Lily likes to play with"},
+		"videos" : [{  
+         "name":"Pre Wedding Video",
+         "videoUrl":"http://player.vimeo.com/video/92040599?title=0&amp;byline=0&amp;portrait=0&amp;color=000000",
+         "desc":"Lily likes to play with crayons and pencils"		 
+      },{  
+         "name":"Promo ONE",
+         "videoUrl":"images/album/01.jpg",
+         "desc":"Lily likes to play with crayons and pencils"	
+      }],
+	  "images" : [  
+      {  
+         "name":"EDWIN & SANJANA",
+         "imgUrl":"images/album/01.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0001"
+      },
+	  {  
+         "name":"ROMEO & JULIET",
+         "imgUrl":"images/album/02.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0002"
+      },
+	  {  
+         "name":"EDWIN & SANJANA",
+         "imgUrl":"images/album/01.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0001"
+      },
+	  {  
+         "name":"ROMEO & JULIET",
+         "imgUrl":"images/album/02.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0002"
+      },
+	  {  
+         "name":"EDWIN & SANJANA",
+         "imgUrl":"images/album/01.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0001"
+      },
+	  {  
+         "name":"ROMEO & JULIET",
+         "imgUrl":"images/album/02.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0002"
+      }]
+	},
+	"0002" : {
+		"title" : "ROMEO & JULIET",
+		"desc" : "Read is a responsive WordPress theme focused on readability with a minimalist design. You will enjoy blogging using our Read theme. It is clean, minimalist, content-focused and responsive. It looks great on every device. Your readers will enjoy reading your blog.",
+		"event" : {"name" : "event name", "place" : "chennai", "time" : "4:00 PM", "info" : "Lily likes to play with"},
+		"videos" : [{  
+         "name":"Pre Wedding Video",
+         "videoUrl":"http://player.vimeo.com/video/92040599?title=0&amp;byline=0&amp;portrait=0&amp;color=000000",
+         "desc":"Lily likes to play with crayons and pencils"		 
+      },{  
+         "name":"Promo ONE",
+         "videoUrl":"images/album/01.jpg",
+         "desc":"Lily likes to play with crayons and pencils"	
+      }],
+	  "images" : [  
+      {  
+         "name":"EDWIN & SANJANA",
+         "imgUrl":"images/album/01.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0001"
+      },
+	  {  
+         "name":"ROMEO & JULIET",
+         "imgUrl":"images/album/02.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0002"
+      },
+	  {  
+         "name":"EDWIN & SANJANA",
+         "imgUrl":"images/album/01.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0001"
+      },
+	  {  
+         "name":"ROMEO & JULIET",
+         "imgUrl":"images/album/02.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0002"
+      },
+	  {  
+         "name":"EDWIN & SANJANA",
+         "imgUrl":"images/album/01.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0001"
+      },
+	  {  
+         "name":"ROMEO & JULIET",
+         "imgUrl":"images/album/02.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0002"
+      }]
+	},
+	"0003" : {
+		"title" : "RAM & SITA",
+		"desc" : "Read is a responsive WordPress theme focused on readability with a minimalist design. You will enjoy blogging using our Read theme. It is clean, minimalist, content-focused and responsive. It looks great on every device. Your readers will enjoy reading your blog.",
+		"event" : {"name" : "event name", "place" : "chennai", "time" : "4:00 PM", "info" : "Lily likes to play with"},
+		"videos" : [{  
+         "name":"Pre Wedding Video",
+         "videoUrl":"http://player.vimeo.com/video/92040599?title=0&amp;byline=0&amp;portrait=0&amp;color=000000",
+         "desc":"Lily likes to play with crayons and pencils"		 
+      },{  
+         "name":"Promo ONE",
+         "videoUrl":"images/album/01.jpg",
+         "desc":"Lily likes to play with crayons and pencils"	
+      }],
+	  "images" : [  
+      {  
+         "name":"EDWIN & SANJANA",
+         "imgUrl":"images/album/01.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0001"
+      },
+	  {  
+         "name":"ROMEO & JULIET",
+         "imgUrl":"images/album/02.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0002"
+      },
+	  {  
+         "name":"EDWIN & SANJANA",
+         "imgUrl":"images/album/01.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0001"
+      },
+	  {  
+         "name":"ROMEO & JULIET",
+         "imgUrl":"images/album/02.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0002"
+      },
+	  {  
+         "name":"EDWIN & SANJANA",
+         "imgUrl":"images/album/01.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0001"
+      },
+	  {  
+         "name":"ROMEO & JULIET",
+         "imgUrl":"images/album/02.jpg",
+         "desc":"Lily likes to play with crayons and pencils",
+		 "link" : "#!/gallery/:0002"
+      }]
+	}
+}
